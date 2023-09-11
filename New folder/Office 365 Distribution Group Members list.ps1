@@ -1,0 +1,1 @@
+﻿Get-MsolGroupMember -GroupObjectId xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | Export-CSV "C:\temp\DistGP-Members.csv" -NoTypeInformation -Encoding UTF8

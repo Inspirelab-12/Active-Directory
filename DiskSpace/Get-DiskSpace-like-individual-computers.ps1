@@ -1,0 +1,1 @@
+Get-WmiObject -Class win32_logicalDisk -ComputerName ENDC01, ENMBX01,ENCAS01 | Select-Object pscomputername, deviceid, freespace, size

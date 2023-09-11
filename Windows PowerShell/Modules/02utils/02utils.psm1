@@ -1,0 +1,9 @@
+﻿. $psScriptRoot\WriteErrorLog.ps1
+. $psScriptRoot\GetComputerInfo.ps1
+. $psScriptRoot\MeasureBenchmarksCmdLet.ps1
+. $psScriptRoot\SaveZipFile.ps1
+. $psScriptRoot\SaveToExcel.ps1
+. $psScriptRoot\SaveBaseline.ps1
+. $psScriptRoot\CompareVersion.ps1
+. $psScriptRoot\ConvertStringToScriptBlock.ps1
+. $psScriptRoot\SendEmail.ps1

@@ -1,0 +1,2 @@
+﻿#Get-ADUser -Filter 'Enabled -eq "True"' -Property Name, Enabled, department | Select Name,Enabled, department | Select-Object -Property Name, Enabled, department | export-csv C:\temp\User-Enabled-Department List.csv
+Get-ADUser -Filter 'Enabled -eq "True"' -Property Name, Enabled, department

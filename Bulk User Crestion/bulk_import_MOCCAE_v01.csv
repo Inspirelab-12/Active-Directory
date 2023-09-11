@@ -1,0 +1,2 @@
+SamAccountName,password,path,GivenName,Surname,Initials,Name,DisplayName,UserPrincipalName,Department,Description,Office,OfficePhone,EmailAddress,StreetAddress,POBox ,City,State,PostalCode,Title,Company,extensionAttribute1
+mark.test12,Football22!,"OU=Bulk User,OU=Test Users & Computers,DC=MOCCAE,DC=LOCAL",Mark12,test12,B,Mark Test12,Mark Test12,mark.test12@moccae.local,Marketing,,Marketing Office,541-213-54412,mark.test12@moccae.local,123 w maple,,Nixa,Mo,65421,Jr Admin,AD Pro,????? ????????

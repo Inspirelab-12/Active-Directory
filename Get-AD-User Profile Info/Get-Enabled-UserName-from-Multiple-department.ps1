@@ -1,0 +1,1 @@
+Get-ADUser -Filter {department -eq "Human Resources" -or department -eq "Financial Resources"-or department -eq "Information Technology"} | Where-Object Enabled | Select name, enabled

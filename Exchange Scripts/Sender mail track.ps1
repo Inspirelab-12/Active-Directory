@@ -1,0 +1,1 @@
+﻿Get-Mailbox -ResultSize unlimited | Search-Mailbox -SearchQuery from:update@emaildomain.com -TargetMailbox athambiraj -TargetFolder "athambiraj" -LogOnly -LogLevel Full
