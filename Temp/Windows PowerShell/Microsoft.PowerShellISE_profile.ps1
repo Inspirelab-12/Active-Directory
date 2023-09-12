@@ -1,1 +1,0 @@
-Get-DiskFreeSpace -filename "OKFINservers.txt" -client "OK" -solution "FIN" -Verbose -errorlog | Select-Object 'Environment', 'Logical Name', 'Server Name', 'Drive', 'Size(GB)', 'Free Space(GB)', 'Free (%)', 'IP', 'Collected' | Out-GridView

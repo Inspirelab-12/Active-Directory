@@ -1,1 +1,0 @@
-﻿Get-ADUser -Filter * -Properties mobile | Select-Object Name,Mobile | export-csv C:\temp\users.csv

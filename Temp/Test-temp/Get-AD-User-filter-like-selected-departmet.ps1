@@ -1,1 +1,0 @@
-﻿Get-ADUser -Filter 'department -like "Human Resources" -or department -like "Financial Resources" -or department -like "Information Technology"' | Select -Property Name, department | export-csv C:\temp\test-0001.csv

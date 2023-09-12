@@ -1,1 +1,0 @@
-﻿Get-AdUser -Server "172.17.1.162" -Identity "Name_of_account" -Credential "Domain_B\Account" -Properties *

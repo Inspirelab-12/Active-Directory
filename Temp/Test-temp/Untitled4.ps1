@@ -1,1 +1,0 @@
-﻿Get-ADUser -Filter {Enabled -eq $True} -Property Created,LastLogonDate | Select-Object -Property Name, SAMAccountName, Created, LastLogonDate, mobile | export-csv C:\temp\users.csv

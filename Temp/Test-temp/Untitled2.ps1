@@ -1,1 +1,0 @@
-﻿Get-Help Set-ADUser -Parameter *|ft

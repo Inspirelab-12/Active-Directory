@@ -1,1 +1,0 @@
-﻿$GroupId = Get-MsolGroup -SearchString "DWC Accounts" | Export-CSV "C:\temp\hi.csv" -NoTypeInformation -Encoding UTF8

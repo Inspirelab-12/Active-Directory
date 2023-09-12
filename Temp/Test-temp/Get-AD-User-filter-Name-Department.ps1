@@ -1,1 +1,0 @@
-﻿Get-ADuser -filter * -property Name, department | select Name, department | sort-object Name, department -unique | export-csv C:\temp\Department-Users-0-list.csv

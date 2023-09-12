@@ -1,5 +1,0 @@
-2022.12.27_214631	INFO	Logfile created
-2022.12.27_214631	WARNING	E:\PowerShell Script\RemoteUpdateSettings.xml not found
-2022.12.27_214631	WARNING	E:\PowerShell Script\RemoteUpdateServer.xml not found
-2022.12.27_214633	INFO	No new version was found
-2022.12.27_214645	WARNING	E:\PowerShell Script\RemoteUpdateServer.xml not found
