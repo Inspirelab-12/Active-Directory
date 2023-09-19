@@ -1,3 +1,3 @@
 #List AD Users 
  
-Get-ADUser -filter * -properties * | Export-CSV “C:\Temp\ADUser.CSV” –NoTypeInformation 
+Get-ADUser -filter * -properties * | Export-CSV "C:\temp\ADUsers.csv" -NoTypeInformation -Encoding UTF8 
