@@ -1,6 +1,3 @@
-
-
-
  #  List all members from AD group showing enable and disabled users.  
  
  $groupname = "Domain Admins"
