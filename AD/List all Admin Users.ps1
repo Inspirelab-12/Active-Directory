@@ -4,6 +4,6 @@
 $group.GetRelated('Win32_UserAccount') | Out-GridView
 
 #List Administrators 
-Get-ADGroupMember -Identity "Administrators" -Recursive | Select-Object "*" | Export-CSV "C:\temp\Administrators.csv" -NoTypeInformation -Encoding UTF8 
+Get-ADGroupMember -Identity "Administrators" -Recursive | Select-Object "*" | Export-CSV "C:\temp\AllAdministrators.csv" -NoTypeInformation -Encoding UTF8 
 
  
