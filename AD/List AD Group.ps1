@@ -1,5 +1,3 @@
-# Get-ADGroup
-### -------------------------------------------------------------------------------------- ###
 # Get all AD Groups & Limit Properties
 Get-ADGroup -filter * | select Name, groupscope, objectclass | Export-CSV "C:\temp\AllADGroup.csv" -NoTypeInformation -Encoding UTF8 
 

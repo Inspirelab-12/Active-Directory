@@ -8,4 +8,4 @@ Select `
 Hour,
 Minute
 }
-$Results | export-csv C:\temp\ServerTimes.csv -Encoding ASCII -NoTypeInformation
+$Results | export-csv C:\temp\ServerTimes.csv -Encoding ASCII -NoTypeInformation -Encoding UTF8
