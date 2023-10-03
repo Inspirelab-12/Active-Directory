@@ -1,3 +1,6 @@
+
+
+
 # List AD Selected User Properties Export CSV
 # --------------------------------------------------------------------------------------------------------------------------- 
  Get-ADUser -Identity test1 -Properties * | Export-CSV "C:\temp\ADUsers.csv" -NoTypeInformation -Encoding UTF8
