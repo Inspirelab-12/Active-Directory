@@ -12,7 +12,7 @@
 
 # 1. List AD Selected User Properties Export CSV
 # --------------------------------------------------------------------------------------------------------------------------- #
- Get-ADUser -Identity test1 -Properties * | Export-CSV "C:\temp\AD-Selected-Users.csv" -NoTypeInformation -Encoding UTF8
+ Get-ADUser -Identity User01 -Properties * | Export-CSV "C:\temp\AD-Selected-Users.csv" -NoTypeInformation -Encoding UTF8
 # --------------------------------------------------------------------------------------------------------------------------- #
 
 # 2. List AD User Properties Export CSV
@@ -21,7 +21,7 @@ Get-ADUser -filter * -properties * | Export-CSV "C:\temp\ADUsers.csv" -NoTypeInf
 # --------------------------------------------------------------------------------------------------------------------------- #
 # 3. List AD Selected User with Selected Objects Export CSV
 # ---------------------------------------------------------------------------------------------------------------------------
-Get-ADUser -Identity test1 -properties * | Select-Object Displayname, Samaccountname, ObjectClass, title, department, EmailAddress, mobile, whenCreated, LastLogonDate, PasswordExpired, PasswordLastSet, PasswordNeverExpires | Export-CSV "C:\temp\AD-Selected-Prop-Selected-Users.csv" -NoTypeInformation -Encoding UTF8  
+Get-ADUser -Identity User01 -properties * | Select-Object Displayname, Samaccountname, ObjectClass, title, department, EmailAddress, mobile, whenCreated, LastLogonDate, PasswordExpired, PasswordLastSet, PasswordNeverExpires | Export-CSV "C:\temp\AD-Selected-Prop-Selected-Users.csv" -NoTypeInformation -Encoding UTF8  
 # --------------------------------------------------------------------------------------------------------------------------- #
 
 # 4. List AD Users with Selected Objects Export CSV
