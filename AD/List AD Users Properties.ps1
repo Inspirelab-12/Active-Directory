@@ -25,13 +25,13 @@ Get-ADUser -filter * -properties * | Export-CSV "C:\temp\AD User Properties.csv"
 
 # 3. List AD Selected User with Selected Objects Export CSV
 
-Get-ADUser -Identity User01 -properties * | Select-Object Displayname, Samaccountname, ObjectClass, title, department, EmailAddress, mobile, whenCreated, LastLogonDate, PasswordExpired, PasswordLastSet, PasswordNeverExpires | Export-CSV "C:\temp\Selected User with Selected Objects.csv" -NoTypeInformation -Encoding UTF8  
+Get-ADUser -Identity User01 -properties * | Select-Object Displayname, Samaccountname, ObjectClass, title, department, EmailAddress, mobile, whenCreated, whenChanged, LastLogonDate, PasswordExpired, PasswordLastSet, PasswordNeverExpires | Export-CSV "C:\temp\Selected User with Selected Objects.csv" -NoTypeInformation -Encoding UTF8  
 
 # --------------------------------------------------------------------------------------------------------------------------- #
 
 # 4. List AD Users with Selected Objects Export CSV
 
-Get-ADUser -filter * -properties * | Select-Object Displayname, Samaccountname, ObjectClass, title, department, EmailAddress, mobile, whenCreated, LastLogonDate, PasswordExpired, PasswordLastSet, PasswordNeverExpires | Export-CSV "C:\temp\AD Users with Selected Objects.csv" -NoTypeInformation -Encoding UTF8  
+Get-ADUser -filter * -properties * | Select-Object Displayname, Samaccountname, ObjectClass, title, department, EmailAddress, mobile, whenCreated, whenChanged, LastLogonDate, PasswordExpired, PasswordLastSet, PasswordNeverExpires | Export-CSV "C:\temp\AD Users with Selected Objects.csv" -NoTypeInformation -Encoding UTF8  
 # --------------------------------------------------------------------------------------------------------------------------- #
 
 # 5. List information for Enabled Users Export CSV
