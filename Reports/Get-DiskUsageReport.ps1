@@ -1,4 +1,4 @@
-﻿$OldReports = (Get-Date).AddDays(-30)
+﻿$OldReports = (Get-Date).AddDays(-0)
 Get-ChildItem C:\temp\serverslist.txt | `
 Where-Object { $_.LastWriteTime -le $OldReports} | `
 Remove-Item -Recurse -Force -ErrorAction SilentlyContinue 
