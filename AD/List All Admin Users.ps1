@@ -10,7 +10,7 @@ Get-ADGroupMember -Identity "Administrators" -Recursive | Select-Object "*" | Ex
 Import-Module ActiveDirectory
 
 # Specify the domain controller
-$domainController = "ADAVIATION.LOCAL"
+$domainController = "MYLAB.LOCAL"
 
 # Specify the distinguished name of the Domain Admins group
 $domainAdminsGroup = "CN=Domain Admins,CN=Users,DC=ADAVIATION,DC=LOCAL"

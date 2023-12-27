@@ -3,7 +3,7 @@
 # ---------------------------------------------------------------------------------------#
 
 # Server Names 
-$computer = 'D', 'ADADCHV08', 'ADA-DRAD01' 
+$computer = 'D', 'SRV01', 'SRV02' 
 
 # Service Names 
 $services = 'ntds', 'adws', 'dns', 'dnscache', 'kdc', 'w32time', 'netlogon' 
