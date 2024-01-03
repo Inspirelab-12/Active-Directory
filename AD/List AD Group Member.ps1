@@ -1,14 +1,11 @@
 ﻿
-<# -----------------------------------------------------------#
-
-Index
-
+# -----------------------------------------------------------#
+    Index
+# -----------------------------------------------------------#
 1. List Selected AD Group Members.
 2. List Selected Multiple AD Group Members. 
 3. List Selected AD Group Members showing Enable Users. 
 4. List Selected AD Group Members recursively.
-
-
 # -----------------------------------------------------------#>
 
 # 1. List Selected AD Group Members
